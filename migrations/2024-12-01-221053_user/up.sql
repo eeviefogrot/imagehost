@@ -1,0 +1,5 @@
+CREATE TABLE "user" (
+    id SERIAL PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    username VARCHAR UNIQUE,
+    password VARCHAR,
+)
